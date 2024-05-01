@@ -35,7 +35,7 @@ const user: User= {
         city: 'Dhaka',
         road: 23,
         presentAddress: "motijheel",
-        // permanentAddress: "motijheel"
+        permanentAddress: "motijheel"
     }
 }
 // ??= nullish coalescing operator
