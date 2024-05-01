@@ -10,3 +10,7 @@ let isAdmin= true
 let x: undefined = undefined;
 // null
 let y: null = null;
+
+//tuple
+let coordinates : [number, number] =[1, 5];
+let ageName : [number, string, boolean] = [25, "twenty five", true]
