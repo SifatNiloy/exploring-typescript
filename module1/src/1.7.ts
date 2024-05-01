@@ -37,4 +37,27 @@ const greetFriends=(...friends:string[])=>{
 
 greetFriends('abul', 'babul', 'kabul', "labul", "ubul");
 
+
+//destructuring
+
+//object destructuring
+const user={
+    id: 345,
+    name: {
+        firstName: "sifat",
+        middleName: "hossain",
+        lastName: "niloy",
+    },
+    contactNo: 30289449,
+    address: 'Dhaka',
+};
+
+// nicher line ta te type declare korte parbo na , name alias hoye jabe. jemon middleName: midname likhle midname hisabei pabe
+const {contactNo, name:{middleName}}= user;
+
+
+//arrray destructuring
+const myFriends=['siam', 'shovon', 'wazed', 'sawom', 'fithfriend', 'sixthfriend']
+const [,,thirdFriend,...rest]= myFriends;  //rest will get the fifth and sixth friend
+
 }
