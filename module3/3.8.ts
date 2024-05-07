@@ -70,5 +70,4 @@ const shape3= new Rectangle(10,20);
 
 getShapeArea(shape3)
 
-
 }
