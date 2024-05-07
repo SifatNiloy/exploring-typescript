@@ -25,4 +25,6 @@ const car ={
 }
 const result1= getPropertyByValue(user, 'name')
 const result2= getPropertyByValue(car, 'model')
+
+
 }
