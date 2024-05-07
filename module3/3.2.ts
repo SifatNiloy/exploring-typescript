@@ -1,6 +1,6 @@
 {
 //oop- inheritance
-class Parent{
+class Person{
     name: string;
     age: number;
     address: string;
@@ -15,7 +15,7 @@ class Parent{
     }
 }
 
-class Student extends Parent{
+class Student extends Person{
 
     constructor(name: string, age: number,address: string){
         super(name, age, address)
@@ -24,7 +24,7 @@ class Student extends Parent{
 }
 const student1= new Student("mr x", 20, "udaga")
 
-class Teacher extends Parent{
+class Teacher extends Person{
     
     designation: string;
     constructor(name: string, age: number,address: string, designation:string){
